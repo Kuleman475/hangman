@@ -1,5 +1,3 @@
-
-
 // ADD WHEN KEYWORD
 
 // get random word function and return to main
@@ -82,7 +80,6 @@ fun main() {
                 repeat(2) { println() }
                 println("😭😭 YOU LOSE 😭😭")
             }
-
             Thread.sleep(3000)
         }
         if(uword.toString() == word) {
@@ -93,8 +90,6 @@ fun main() {
     }
 }
 
-// Hours Working on it 7.5 hours
-// 1.5 hours Setup Github with Intellij
 // 1 hour module plan
 // 1 hour research
 // 2.5 hours writing code
