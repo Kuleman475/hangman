@@ -66,35 +66,39 @@ fun main() {
             println("Incorrect Letter 😔")
             wrongGuess += 1
             repeat(2){ println()}
-            if (wrongGuess == 1) {
-                println(" |||||||")
-            }
-            else if (wrongGuess == 2){
-                println(" |||||||")
-                println("( ' _ ' )")
-            }
-            else if (wrongGuess == 3){
-                println(" |||||||")
-                println("( ' _ ' )")
-                println("_________")
-            }
-            else if (wrongGuess == 4){
-                println(" |||||||")
-                println("( ' _ ' )")
-                println("_________")
-                println("    |    ")
-                println("    |    ")
-            }
-            else{
-                println(" |||||||")
-                println("( ' _ ' )")
-                println("_________")
-                println("    |    ")
-                println("    |    ")
-                println(" _l   l_ ")
-                repeat(2) { println() }
-                println("😭😭 YOU LOSE 😭😭")
-            }
+      when (wrongGuess) {
+          1 -> println(" |||||||")
+          2 -> {
+              println(" |||||||")
+              println("( ' _ ' )")
+          }
+
+          3 -> {
+              println(" |||||||")
+              println("( ' _ ' )")
+              println("_________")
+          }
+
+          4 -> {
+              println(" |||||||")
+              println("( ' _ ' )")
+              println("_________")
+              println("    |    ")
+              println("    |    ")
+          }
+
+          5 -> {
+              println(" |||||||")
+              println("( ' _ ' )")
+              println("_________")
+              println("    |    ")
+              println("    |    ")
+              println("  _l l_ ")
+
+              repeat(2) { println() }
+              println("😭😭 YOU LOSE 😭😭")
+          }
+      }
             Thread.sleep(2000)
         }
         if(uword.toString() == word) {
@@ -112,19 +116,23 @@ fun main() {
         println("Goodbye!")
     }
 }
-// 9 hours total
 
+// 12.5 hours total
+// 1 hour writing README
 // 1 hour adding words
 // 1 hour module plan
-// 1 hour setting up github and intelliJ
-// 1 hour research
+// 1 hour setting up Github and intelliJ
+// 1 hour research on kotlin language
+// .5 hour learning to set Github with kotlin and pushing
 // 3.5 hours writing the game up
 // 1 hours debugging
 // .5 hours troubleshooting
-
+// 1 hour learning and adding "WHEN" keyword
+// 1 hour creating and uploading video
 
 
 //Websites I used
+//https://www.geeksforgeeks.org/kotlin-when-expression/
 //https://www.w3schools.com/KOTLIN/kotlin_data_types.php
 //https://www.baeldung.com/kotlin/random-number
 //https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.text/-string-builder/
