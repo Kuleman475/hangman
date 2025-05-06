@@ -3,8 +3,23 @@
 // get random word function and return to main
 fun randomWord(): String {
     // list of words
-    val words = arrayOf("marvel", "banana", "journey", "candle", "pirate", "window", "thunder", "rocket", "muffin", "lantern", "velvet", "sunrise", "forest", "whisper", "granite")
-    return words.random()
+    val words = arrayOf("marvel", "banana", "journey", "candle",
+    "pirate", "window", "thunder", "rocket", "muffin", "lantern",
+    "velvet", "sunrise", "forest", "whisper", "granite", "pipe",
+    "congratulations", "loser", "plane", "airplane", "sky", "fox",
+    "cat", "hamburger", "cheese", "chess", "quote", "hangman", "beard",
+    "dog", "bishop", "rook", "king", "queen", "lightning", "geography",
+    "fire", "biology", "bibliography", "diet", "doctor", "hat", "laptop",
+    "california", "current", "search", "computer", "random", "earth", "bread",
+    "ocean", "shark", "sunset", "beach", "assistant", "engine", "helicopter",
+    "ice", "jam", "zebra", "grape", "clock", "nugget", "dragon", "pencil",
+    "giraffe", "maze", "triangle", "backpack", "saxophone", "avalanche",
+    "telescope", "encyclopedia", "microphone", "architecture", "transformation",
+    "xylophone", "glue", "robot", "festival", "watermelon", "umbrella", "volcano",
+    "waterfall", "trampoline", "caterpillar", "moonlight", "adventure", "notebook",
+    "calculator", "balloon", "carousel", "treasure", "spaceship", "kangaroo",
+    "yesterday", "barbeque", "butterfly", "elephant", "stapler", "pencil", "corn")
+return words.random()
 }
 
 fun main() {
@@ -80,7 +95,7 @@ fun main() {
                 repeat(2) { println() }
                 println("😭😭 YOU LOSE 😭😭")
             }
-            Thread.sleep(3000)
+            Thread.sleep(2000)
         }
         if(uword.toString() == word) {
             println("🎉 CONGRATULATIONS 🎉")
@@ -88,11 +103,22 @@ fun main() {
         }
 
     }
+    println("Would you like to play again? (y/n): ")
+    val userGame = readlnOrNull()
+    if (userGame == "y"){
+        main()
+    }
+    else {
+        println("Goodbye!")
+    }
 }
+// 9 hours total
 
+// 1 hour adding words
 // 1 hour module plan
+// 1 hour setting up github and intelliJ
 // 1 hour research
-// 2.5 hours writing code
+// 3.5 hours writing the game up
 // 1 hours debugging
 // .5 hours troubleshooting
 
