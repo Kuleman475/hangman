@@ -6,13 +6,12 @@ I am trying to recreate the game of hangman where you put in a letter and it gen
 
 I used IntelliJ as the editor to create this console based game made using while and if statements as well as using variables to set the word and multiple functions for the game to be able to work. I also used when statetments to be able to use them for adding parts to the hangman.
 
-{Describe your purpose for writing this software.}
-#Purpose
+# Purpose
 the purpose for writing the software is to help expound my knowledge on the kotlin language and creating a hangman is a good way to make it fun while keeping and sharpening the skills of this programming language as well as being able to grow in my knowledge of the Kotlin language.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Hangman Video](https://www.youtube.com/watch?v=nJqyNH0OlCA)
 
 # Development Environment
 
