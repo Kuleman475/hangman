@@ -1,5 +1,3 @@
-// ADD WHEN KEYWORD
-
 // get random word function and return to main
 fun randomWord(): String {
     // list of words
